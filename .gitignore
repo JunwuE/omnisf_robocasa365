@@ -1,0 +1,24 @@
+# ---- Large artifacts / run outputs (not source) ----
+checkpoints/
+wandb/
+logs/
+.cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+
+# ---- Misc ----
+*.log
+*.pid
+*.out
+*.err
+.DS_Store
